@@ -1,0 +1,32 @@
+[
+ {
+ "name": "Han Solo",
+ "description": "Smuggler. Scoundrel. Hero. Han Solo, captain of the Millennium Falcon, was one of the great leaders of the Rebel Alliance.",
+ "type" : "type1",
+ "image" : "solo.jpg"
+ },
+ {
+ "name": "Chewbacca",
+ "description": "A legendary Wookiee warrior and Han Solo’s co-pilot aboard the Millennium Falcon",
+ "type" : "type2",
+ "image" : "chew.jpg"
+ },
+ {
+ "name": "Rey",
+ "description": "Rey is a Jakku scavenger, a survivor toughened by life on a harsh desert planet. When the fugitive droid BB-8 appeals to her for help, Rey finds herself drawn into a galaxy-spanning conflict",
+ "type" : "type3",
+ "image" : "rey.jpg"
+ },
+ {
+ "name": "Kylo Ren",
+ "description": "A dark warrior strong with the Force, Kylo Ren commands First Order missions with a temper as fiery as his unconventional lightsaber.",
+ "type" : "type1",
+ "image" : "kylo.jpg"
+ },
+ {
+ "name": "Finn",
+ "description": "FN-2187 was trained since birth to serve the First Order as a stormtrooper, but a skirmish on Jakku awakened his conscience and drove him down a different path, one that proved both heroic and dangerous.",
+ "type" : "type3",
+ "image" : "finn.jpg"
+ }
+]
