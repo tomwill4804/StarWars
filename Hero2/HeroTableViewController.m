@@ -40,7 +40,7 @@
     //
     //  get json data
     //
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Hero" ofType:@"json"];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"StarWars" ofType:@"json"];
     NSArray *newHeros = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:filePath] options:NSJSONReadingAllowFragments error:nil];
     
     //
@@ -86,7 +86,6 @@
     
     cell.name.text = hero.name;
     cell.desc.text = hero.desc;
-    NSString *imageLocation = [NSString stringWithFormat:@"Images/%@", hero.image];
     cell.image.image = [UIImage imageNamed:hero.image];
 
     

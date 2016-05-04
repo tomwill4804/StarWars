@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E34633821CDA550300177663 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = E34633811CDA550300177663 /* Images */; };
 		E34633851CDA57BF00177663 /* Type1Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = E34633841CDA57BF00177663 /* Type1Cell.m */; };
 		E34633881CDA57DD00177663 /* Type2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = E34633871CDA57DD00177663 /* Type2Cell.m */; };
 		E346338B1CDA57F100177663 /* Type3Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = E346338A1CDA57F100177663 /* Type3Cell.m */; };
@@ -18,11 +17,10 @@
 		E3A0D7021CCA7CE1005B3120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A0D7011CCA7CE1005B3120 /* Assets.xcassets */; };
 		E3A0D7051CCA7CE1005B3120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A0D7031CCA7CE1005B3120 /* LaunchScreen.storyboard */; };
 		E3A0D70E1CCA7D90005B3120 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A0D70D1CCA7D90005B3120 /* Hero.m */; };
-		E3A0D7131CCA80CD005B3120 /* Hero.json in Resources */ = {isa = PBXBuildFile; fileRef = E3A0D7121CCA80CD005B3120 /* Hero.json */; };
+		E3A0D7131CCA80CD005B3120 /* StarWars.json in Resources */ = {isa = PBXBuildFile; fileRef = E3A0D7121CCA80CD005B3120 /* StarWars.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E34633811CDA550300177663 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		E34633831CDA57BF00177663 /* Type1Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type1Cell.h; sourceTree = "<group>"; };
 		E34633841CDA57BF00177663 /* Type1Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type1Cell.m; sourceTree = "<group>"; };
 		E34633861CDA57DD00177663 /* Type2Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type2Cell.h; sourceTree = "<group>"; };
@@ -41,7 +39,7 @@
 		E3A0D7061CCA7CE1005B3120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3A0D70C1CCA7D90005B3120 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
 		E3A0D70D1CCA7D90005B3120 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
-		E3A0D7121CCA80CD005B3120 /* Hero.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hero.json; sourceTree = "<group>"; };
+		E3A0D7121CCA80CD005B3120 /* StarWars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StarWars.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +56,7 @@
 		E3A0D6E91CCA7CE1005B3120 = {
 			isa = PBXGroup;
 			children = (
-				E3A0D6F41CCA7CE1005B3120 /* Hero2 */,
+				E3A0D6F41CCA7CE1005B3120 /* StarWars */,
 				E3A0D6F31CCA7CE1005B3120 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,7 +69,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E3A0D6F41CCA7CE1005B3120 /* Hero2 */ = {
+		E3A0D6F41CCA7CE1005B3120 /* StarWars */ = {
 			isa = PBXGroup;
 			children = (
 				E3A0D6F81CCA7CE1005B3120 /* AppDelegate.h */,
@@ -88,12 +86,12 @@
 				E3A0D6FC1CCA7CE1005B3120 /* HeroTableViewController.m */,
 				E3A0D6FE1CCA7CE1005B3120 /* Main.storyboard */,
 				E3A0D7011CCA7CE1005B3120 /* Assets.xcassets */,
-				E3A0D7121CCA80CD005B3120 /* Hero.json */,
+				E3A0D7121CCA80CD005B3120 /* StarWars.json */,
 				E3A0D7031CCA7CE1005B3120 /* LaunchScreen.storyboard */,
 				E3A0D7061CCA7CE1005B3120 /* Info.plist */,
-				E34633811CDA550300177663 /* Images */,
 				E3A0D6F51CCA7CE1005B3120 /* Supporting Files */,
 			);
+			name = StarWars;
 			path = Hero2;
 			sourceTree = "<group>";
 		};
@@ -162,11 +160,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E34633821CDA550300177663 /* Images in Resources */,
 				E3A0D7051CCA7CE1005B3120 /* LaunchScreen.storyboard in Resources */,
 				E3A0D7021CCA7CE1005B3120 /* Assets.xcassets in Resources */,
 				E3A0D7001CCA7CE1005B3120 /* Main.storyboard in Resources */,
-				E3A0D7131CCA80CD005B3120 /* Hero.json in Resources */,
+				E3A0D7131CCA80CD005B3120 /* StarWars.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
